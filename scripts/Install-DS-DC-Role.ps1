@@ -1,0 +1,1 @@
+Install-ADDSForest -DomainName "lab.local" -SafeModeAdministratorPassword (convertto-securestring "P@ssword123" -asplaintext -force)

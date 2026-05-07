@@ -26,16 +26,6 @@ This project demonstrates building a complete enterprise environment using **Win
 ### 2. GPO Reports & Policy Results
 * **Path:** [gpo-reports](./gpo-reports/)
 
-```text
-/gpo-reports/
-│
-├── it-gpo-report.html
-├── hr-gpo-report.html
-├── finance-gpo-report.html
-└── security-audit-gpo-results.html
-```
-
-
 **Included Reports:**
 
 - IT Department: [it-gpo-report.html](./gpo-reports/it-gpo-report.html)

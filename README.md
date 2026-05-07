@@ -15,12 +15,40 @@ This project demonstrates building a complete enterprise environment using **Win
 
 ---
 
-## Lab Resources & File Paths
-
 ### 1. PowerShell Scripts
-* **Path:** `/scripts/`
-* **Install-DS-DC-Role.ps1:** Automates AD DS installation and Domain Controller promotion.
-* **Install-FileServer-Role.ps1:** Automates File Server role setup, folder creation, and NTFS permissions.
+* **Path:** [scripts](./scripts/)
+
+- [Install-DS-DC-Role.ps1](./scripts/Install-DS-DC-Role.ps1): Automates AD DS installation and Domain Controller promotion.  
+- [Install-FileServer-Role.ps1](./scripts/Install-FileServer-Role.ps1): Automates File Server role setup, folder creation, and NTFS permissions.
+
+---
+
+### 2. GPO Reports & Policy Results
+* **Path:** [gpo-reports](./gpo-reports/)
+
+```text
+/gpo-reports/
+│
+├── it-gpo-report.html
+├── hr-gpo-report.html
+├── finance-gpo-report.html
+└── security-audit-gpo-results.html
+```
+
+
+**Included Reports:**
+
+- IT Department: [it-gpo-report.html](./gpo-reports/it-gpo-report.html)
+- HR Department: [hr-gpo-report.html](./gpo-reports/hr-gpo-report.html)
+- Finance Department: [finance-gpo-report.html](./gpo-reports/finance-gpo-report.html)
+- Security Audit Policies: [security-audit-gpo-results.html](./gpo-reports/security-audit-gpo-results.html)
+
+**These reports include:**
+
+- Applied Group Policies
+- Security Restrictions
+- Audit Policy Configuration
+- GPO Application Status
 
 ---
 
@@ -44,12 +72,12 @@ Organizing the structure and automating tasks.
 4. **OU Structure:** Creating Organizational Units for (IT, HR, and Finance) viewed in **ADUC**.
    ![04-AD-Structure-View](screenshots/04-AD-Structure-View.png)
 5. **Departmental Folders:** Verification of the automated folder creation for each department:
-   * **IT Department:** ![05a-IT-Folder](screenshots/05a-IT-Drive-Policy.png)
-   * **HR Department:** ![05b-HR-Folder](screenshots/05b-HR-Drive-Policy.png)
-   * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Drive-Policy.png)
+   * **IT Department:** ![05a-IT-Folder](screenshots/05a-IT-Folder.png)
+   * **HR Department:** ![05b-HR-Folder](screenshots/05b-HR-Folder.png)
+   * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Folder.png)
 6. **Folder Permissions:** Results of the script applying NTFS permissions and sharing settings.
    ![07-Create-Folders-Permissions](screenshots/07-Create-Folders-Permissions.png)
-7. **User Creation:** User Creation & Verification: Using PowerShell to create new domain users and verifying their existence
+7. **User Creation:** Verification of user accounts created within their respective OUs in **ADUC**.
    ![08-AD-User-Creation](screenshots/08-AD-User-Creation.png)
 8. **Password Management:** Managing user credentials via PowerShell CLI.
    ![09-Change-Client-Password](screenshots/09-Change-Client-Password.png)
@@ -57,7 +85,7 @@ Organizing the structure and automating tasks.
 ---
 
 ### Phase 3: Policy Enforcement & User Environment
-Securing the enviroment and preparing the user workspace.
+Securing the system and preparing the user workspace.
 
 9. **GPO Management:** Overview of the applied Group Policies in GPMC.
    ![06-Group-Policy-Management](screenshots/06-Group-Policy-Management.png)
@@ -66,7 +94,7 @@ Securing the enviroment and preparing the user workspace.
 11. **CMD Block:** Restricted access to the Command Prompt for standard users.
     ![11a-CMD-Restriction](screenshots/11a-CMD-Restriction.png)
 12. **Control Panel Block:** Disabled access to system settings via GPO.
-    ![11b-Control-Panel-Restriction](screenshots/11b-Control-Panel-Restriction.png)
+    ![11b-Control-Panel-Restriction](screenshots/11b-Control-Panel-Restriction.jpg)
 13. **Mapped Drives:** Automatically mapping department network drives (Z: Drive) upon login.
     ![13-Mapped-Drive-Result](screenshots/13-Mapped-Drive-Result.png)
 
@@ -77,32 +105,6 @@ Tracking system events and administrative activity.
 
 14. **Security Logs:** Enabling process creation auditing (Event ID 4688) to monitor system activity.
     ![12-Security-Audit-Logs](screenshots/12-Security-Audit-Logs.png)
-
----
-
-### 2. GPO Reports & Policy Results
-* **Path:** `/gpo-reports/`
-
-```text
-/gpo-reports/
-│
-├── it-gpo-report.html
-├── hr-gpo-report.html
-├── finance-gpo-report.html
-└── security-audit-gpo-results.html
-```
-Included Reports
-IT Department: /gpo-reports/it-gpo-report.html
-HR Department: /gpo-reports/hr-gpo-report.html
-Finance Department: /gpo-reports/finance-gpo-report.html
-Security Audit Policies: /gpo-reports/security-audit-gpo-results.html
-
-These reports include:
-
-Applied Group Policies
-Security Restrictions
-Audit Policy Configuration
-GPO Application Status
 
 ---
 

@@ -67,7 +67,7 @@ Organizing the structure and automating tasks.
    * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Drive-Policy.png)
 6. **Folder Permissions:** Results of the script applying NTFS permissions and sharing settings.
    ![07-Create-Folders-Permissions](screenshots/07-Create-Folders-Permissions.png)
-7. **User Creation:** Verification of user accounts created within their respective OUs in **ADUC**.
+7. **User Creation & Verification:** Using PowerShell to create new domain users and verifying their existence
    ![08-AD-User-Creation](screenshots/08-AD-User-Creation.png)
 8. **Password Management:** Managing user credentials via PowerShell CLI.
    ![09-Change-Client-Password](screenshots/09-Change-Client-Password.png)

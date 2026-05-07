@@ -49,7 +49,7 @@ Organizing the structure and automating tasks.
    * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Drive-Policy.png)
 6. **Folder Permissions:** Results of the script applying NTFS permissions and sharing settings.
    ![07-Create-Folders-Permissions](screenshots/07-Create-Folders-Permissions.png)
-7. **User Creation:** Verification of user accounts created within their respective OUs in **ADUC**.
+7. **User Creation:** User Creation & Verification: Using PowerShell to create new domain users and verifying their existence
    ![08-AD-User-Creation](screenshots/08-AD-User-Creation.png)
 8. **Password Management:** Managing user credentials via PowerShell CLI.
    ![09-Change-Client-Password](screenshots/09-Change-Client-Password.png)
@@ -57,7 +57,7 @@ Organizing the structure and automating tasks.
 ---
 
 ### Phase 3: Policy Enforcement & User Environment
-Securing the system and preparing the user workspace.
+Securing the enviroment and preparing the user workspace.
 
 9. **GPO Management:** Overview of the applied Group Policies in GPMC.
    ![06-Group-Policy-Management](screenshots/06-Group-Policy-Management.png)
@@ -66,7 +66,7 @@ Securing the system and preparing the user workspace.
 11. **CMD Block:** Restricted access to the Command Prompt for standard users.
     ![11a-CMD-Restriction](screenshots/11a-CMD-Restriction.png)
 12. **Control Panel Block:** Disabled access to system settings via GPO.
-    ![11b-Control-Panel-Restriction](screenshots/11b-Control-Panel-Restriction.jpg)
+    ![11b-Control-Panel-Restriction](screenshots/11b-Control-Panel-Restriction.png)
 13. **Mapped Drives:** Automatically mapping department network drives (Z: Drive) upon login.
     ![13-Mapped-Drive-Result](screenshots/13-Mapped-Drive-Result.png)
 

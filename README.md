@@ -44,9 +44,9 @@ Organizing the structure and automating tasks.
 4. **OU Structure:** Creating Organizational Units for (IT, HR, and Finance) viewed in **ADUC**.
    ![04-AD-Structure-View](screenshots/04-AD-Structure-View.png)
 5. **Departmental Folders:** Verification of the automated folder creation for each department:
-   * **IT Department:** ![05a-IT-Folder](screenshots/05a-IT-Folder.png)
-   * **HR Department:** ![05b-HR-Folder](screenshots/05b-HR-Folder.png)
-   * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Folder.png)
+   * **IT Department:** ![05a-IT-Folder](screenshots/05a-IT-Drive-Policy.png)
+   * **HR Department:** ![05b-HR-Folder](screenshots/05b-HR-Drive-Policy.png)
+   * **Finance Department:** ![05c-Finance-Folder](screenshots/05c-Finance-Drive-Policy.png)
 6. **Folder Permissions:** Results of the script applying NTFS permissions and sharing settings.
    ![07-Create-Folders-Permissions](screenshots/07-Create-Folders-Permissions.png)
 7. **User Creation:** Verification of user accounts created within their respective OUs in **ADUC**.

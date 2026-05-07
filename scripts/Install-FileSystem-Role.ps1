@@ -1,1 +1,0 @@
-Install-WindowsFeature -Name FS-FileServer -IncludeManagementTools

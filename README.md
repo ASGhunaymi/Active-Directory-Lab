@@ -9,7 +9,8 @@ This project demonstrates building a complete enterprise environment using **Win
 * **Server OS:** Windows Server 2022 Evaluation Datacenter.
 * **Client OS:** Windows 11 Pro.
 * **Platform:** Oracle VirtualBox.
-* **Tools:** * PowerShell CLI (Automation)
+* **Tools:**
+  * PowerShell CLI (Automation)
   * Active Directory Users and Computers (ADUC)
   * Group Policy Management (GPMC)
 

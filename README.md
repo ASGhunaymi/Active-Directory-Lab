@@ -28,10 +28,10 @@ This project demonstrates building a complete enterprise environment using **Win
 
 **Included Reports:**
 
-- IT Department: [it-gpo-report.html](./gpo-reports/it-gpo-report.htm)
-- HR Department: [hr-gpo-report.html](./gpo-reports/hr-gpo-report.htm)
-- Finance Department: [finance-gpo-report.html](./gpo-reports/finance-gpo-report.htm)
-- Security Audit Policies: [security-audit-gpo-results.html](./gpo-reports/security-audit-gpo-results.htm)
+- IT Department: [it-gpo-report.png](./gpo-reports/it-gpo-report.png)
+- HR Department: [hr-gpo-report.png](./gpo-reports/hr-gpo-report.png)
+- Finance Department: [finance-gpo-report.png](./gpo-reports/finance-gpo-report.png)
+- Security Audit Policies: [security-audit-gpo-results.png](./gpo-reports/security-audit-gpo-results.png)
 
 **These reports include:**
 
